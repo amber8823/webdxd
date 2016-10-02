@@ -23,6 +23,7 @@ nav{
 
 nav ul{
 	float: right;
+	margin-top: 12px;
 }
 
 nav img{
@@ -45,11 +46,28 @@ ul li a{
 
 ul li a:hover{
 	background-color: rgba(200,200,200,0.5);
+	color: white;
+	text-decoration: none;
 	/*font-size: 20px;*/
 }
 
+.about-gallery div{
+	position: absolute;
+	width: 25%;
+	display: inline-block;
+	padding: 10px;
+/*	margin-left: auto;
+	margin-right: auto;*/
+}
+
+.about-gallery div img{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .poster-wrapper div{
-	width: 33%;
+	/*width: 33%;*/
 	display: inline-block;
 	text-align: center;
 	padding: 20px;
@@ -149,5 +167,57 @@ table tr td button{
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 5px;
+}
+
+@media(max-width: 791px){
+	/*.poster-wrapper div{
+		width: 49%;
+	}*/
+
+	.poster-wrapper div:hover{
+	transform: scale(1.1);
+	}
+
+	ul li a{
+	padding: 7px;
+	}
+
+	ul li{
+	margin: 10px;
+	}
+
+	nav img{
+	width: 40px;
+	}
+
+	.poster-wrapper div h2{
+	font-size: 27px;
+	}
+}
+
+@media(max-width: 478px){
+/*	.poster-wrapper div{
+		width: 100%;
+	}*/
+
+	nav ul{
+	padding: 0px;
+	}
+
+	ul li a{
+	padding: 5px;
+	}
+
+	ul li{
+	margin: 5px;
+	}
+
+	nav img{
+	width: 30px;
+	}
+
+	.poster-wrapper div h2{
+	font-size: 35px;
+	}
 }
 }
