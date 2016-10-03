@@ -137,6 +137,11 @@ ul li a:hover{
 	padding: 15px;
 }
 
+button:disabled{
+	background-color: #BBB;
+	color:#777;
+}
+
 table {
 	border-spacing: 1px solid black;
 	width: 500px;

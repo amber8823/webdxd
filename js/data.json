@@ -1,0 +1,27 @@
+// {
+// 	"color": "black",
+// 	"size": "100",
+// 	"keyboard": {
+// 		"name":"windows keyboard",
+// 		"size":100.10,
+// 		"keys": ["a","b","c"],
+// 		"new": false
+// 	}
+// }
+[
+	{
+		"name": "Inception",
+		"date": "Sep, 2020",
+		"price": "30"
+	},
+	{
+		"name": "Interstella",
+		"date": "Sep, 2020",
+		"price": "50"
+	},
+	{
+		"name": "LePrestige",
+		"date": "Sep, 2020",
+		"price": "10"
+	}
+]
